@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var loginInput: UITextField!
+     //поле логин
+     @IBOutlet weak var passwordInput: UITextField!
+    //поле пароль
     @IBOutlet weak var scrollView: UIScrollView!
     
     @objc
@@ -68,8 +71,5 @@ class ViewController: UIViewController {
             print("Неправильная пара логин/пароль")
         }
     }
-    @IBOutlet weak var loginInput: UITextField!
-    //поле логин
-    @IBOutlet weak var passwordInput: UITextField!
-   //поле пароль
+    
 }
